@@ -1,0 +1,41 @@
+body{
+    width: 100%;
+    margin: 0 auto;
+    background-image: url(/img/all.jpg);
+    background-size:1500px;
+    font-family: sans-serif;
+}
+.nav{
+    display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  position: relative;
+}
+.menu{
+    margin-top:20px;
+    display: flex;
+    gap: 20px;
+}
+a{
+    color:#015c59;
+    text-decoration: none;
+}
+.menu a:hover{
+    color: #D4AF37;
+    padding-top: 10px;
+}
+.title{
+    margin-top: 15px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+.logo{
+    display: flex;
+    float: left;
+}
+h3{
+    margin-top: 50px;
+}
